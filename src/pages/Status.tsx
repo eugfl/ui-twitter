@@ -32,7 +32,12 @@ export function Status() {
         <main className='status'>
             <Header title="Tweet" />
 
-            <Tweet content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum provident ratione maxime labore ipsum quisquam repellendus exercitationem, repudiandae dolorum beatae expedita voluptatem ullam numquam, quod commodi veritatis, unde magnam praesentium." />
+            <Tweet content={`Acabei de migrar um projeto React GIGANTE de create-react-app para Vite e os resultados foram: 
+        
+            ✅ npm start: De 32s para 400ms(sim, demorava 30s) 
+            ✅ npm build: De 120s para 22s
+        
+            Além disso, troquei do Yarn para o PNPM e o install das deps mudou de 24s para 8s 🔥`} />
             
             <Separator />
 

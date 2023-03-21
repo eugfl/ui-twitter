@@ -8,9 +8,20 @@ import './Timeline.css'
 export function Timeline() {
     const [newTweet, setNewTweet] = useState('')
     const [tweets, setTweets] = useState([
-        'Meu primeiro tweet',
-        'Teste',
-        'Deu certo tweetar'
+        `Acabei de migrar um projeto React GIGANTE de create-react-app para Vite e os resultados foram: 
+        
+        ✅ npm start: De 32s para 400ms(sim, demorava 30s) 
+        ✅ npm build: De 120s para 22s
+        
+        Além disso, troquei do Yarn para o PNPM e o install das deps mudou de 24s para 8s 🔥`,
+
+        `Estamos vivendo um momento interessante no mercado de startups. 
+
+        Soluções que resolvem problemas de forma semelhante, mas com precificação mais simples, usabilidade e foco em dev first. 
+
+        Tudo começa com um projeto open source/free 👀`,
+
+        `melhor velocidade pra vídeos do youtube: 1.75x`
     ])
     
     function createNewTweet(event: FormEvent) {
